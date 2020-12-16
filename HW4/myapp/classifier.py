@@ -4,8 +4,8 @@ class Classifier(object):
     def __init__(self):
         self.vectorizer = joblib.load("movie_vectorizer_dump.pkl")
         self.model = joblib.load("movie_model_dump.pkl")
-    self.mlb = joblib.load("movie_mlb_dump.pkl")
-    self.treshold_df = joblib.load("movie_treshold_df_dump.pkl")
+        self.mlb = joblib.load("movie_mlb_dump.pkl")
+        self.treshold_df = joblib.load("movie_treshold_df_dump.pkl")
     
     def get_name_by_label(self, label):
         try:
