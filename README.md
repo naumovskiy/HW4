@@ -15,4 +15,4 @@
 ## Использование визуализаций plotly для анализа профиля нагрузки БД Oracle и поиска деградирующих по времени выполнения sql_id
 ![alt text](https://github.com/naumovskiy/HW4/blob/main/HW4/oracle_data/all_graphs.png)
 ### Задача: Реализовать мониторинг профиля нагрузки на БД Oracle и механизм выявления деградирующих с течением времени sql_id
-* #### [Ноутбук(github)](https://github.com/naumovskiy/HW4/blob/main/HW4/oracle_data/hw4_oracle.ipynb) или [Colab](https://colab.research.google.com/drive/1SSqTy2x7X5iI5lczHDUvt1skvoV-gVPf?usp=sharing)
+* #### Реализовано с помощью plotly: [Ноутбук(github)](https://github.com/naumovskiy/HW4/blob/main/HW4/oracle_data/hw4_oracle.ipynb) или [Colab](https://colab.research.google.com/drive/1SSqTy2x7X5iI5lczHDUvt1skvoV-gVPf?usp=sharing)
