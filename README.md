@@ -9,6 +9,8 @@
 * #### Ноутбук формирования модели для приложения: [Ноутбук](https://github.com/naumovskiy/HW4/blob/main/HW4/made_hw_2/movie_genres_baseline_2.ipynb)
 * #### Исходники приложения: [Демо приложение на Flask](https://github.com/naumovskiy/HW4/tree/main/HW4/myapp)
 
+##
+
 ## 2 Часть
 ## Использование визуализаций plotly для анализа профиля нагрузки БД Oracle и поиска деградирующих по времени выполнения sql_id
 ![alt text](https://github.com/naumovskiy/HW4/blob/main/HW4/oracle_data/all_graphs.png)
