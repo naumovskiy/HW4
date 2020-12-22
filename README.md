@@ -16,4 +16,4 @@
 ![alt text](https://github.com/naumovskiy/HW4/blob/main/HW4/oracle_data/all_graphs.png)
 ### Задача: Реализовать мониторинг профиля нагрузки на БД Oracle и механизм выявления деградирующих с течением времени sql_id
 * #### Реализовано(только визуализация) с помощью plotly: [Ноутбук(github)](https://github.com/naumovskiy/HW4/blob/main/HW4/oracle_data/hw4_oracle.ipynb) или [Colab](https://colab.research.google.com/drive/1SSqTy2x7X5iI5lczHDUvt1skvoV-gVPf?usp=sharing)
-* ### Реализовано с помощью Dash как приложение на Google Cloud Platform: https://hw4-dash-dot-hw4-dash.an.r.appspot.com ([исходники приложения dash](https://github.com/naumovskiy/HW4/tree/main/HW4/dash) )
+* #### Реализовано с помощью Dash как приложение на Google Cloud Platform: https://hw4-dash-dot-hw4-dash.an.r.appspot.com ([исходники приложения dash](https://github.com/naumovskiy/HW4/tree/main/HW4/dash) )
