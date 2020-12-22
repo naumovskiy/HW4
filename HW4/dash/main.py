@@ -14,6 +14,8 @@ def compare_columns(x):
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server                                                                                                                                                                                          
+app.config.suppress_callback_exceptions = True
 
 ''' LOAD DATA '''
 df_awr = pd.read_csv('data/awr_17122020.dat', header=0, sep='\t', parse_dates=['TT'])
@@ -156,4 +158,4 @@ app.layout = html.Div([
 ], className='row')
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', port=8080, debug=True)
